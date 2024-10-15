@@ -24,12 +24,13 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install openai pinecone-client deepeval python-dotenv
+        pip install openai pinecone-client deepeval
 
     - name: Run tests
       env:
         PINECONE_API_KEY: ${{ secrets.PINECONE_API_KEY }}
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       run: |
-        python test_answer_relevance.py
+        python RAG-Eval/test_relevance.py
+
 
