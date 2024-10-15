@@ -6,8 +6,7 @@ from deepeval import assert_test
 from deepeval.test_case import LLMTestCase
 from deepeval.metrics import AnswerRelevancyMetric
 
-# Load environment variables
-# load_dotenv()
+
 
 # Setup OpenAI and Pinecone
 pinecone_api_key = os.getenv("PINECONE_API_KEY")
