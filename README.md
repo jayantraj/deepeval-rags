@@ -13,3 +13,8 @@
 - **Answer Relevancy Metric**: Evaluates whether the LLM output is relevant or useful, based on the retrieved context.
 
 
+## Test Run For Relevancy
+
+<img width="1301" alt="Screenshot 2024-10-15 at 2 29 34 AM" src="https://github.com/user-attachments/assets/7e953816-4820-455d-b09a-9786eeae579c">
+
+
