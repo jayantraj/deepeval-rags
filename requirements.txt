@@ -1,7 +1,0 @@
-deepeval
-pytest
-openai
-pinecone-client
-python-dotenv
-streamlit
-PyMuPDF
