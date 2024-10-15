@@ -31,6 +31,7 @@ jobs:
         PINECONE_API_KEY: ${{ secrets.PINECONE_API_KEY }}
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       run: |
-        python RAG-Eval/test_relevance.py
+        python test_relevance.py
+
 
 
